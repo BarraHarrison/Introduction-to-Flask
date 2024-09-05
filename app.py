@@ -90,5 +90,5 @@ def external():
     return "<a href='https://www.example.com'>Visit Example.com</a>"
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True, port=8080)
 
